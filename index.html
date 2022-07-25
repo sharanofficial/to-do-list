@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>task list</h1>
+      <div class="alert"><p>alert</p></div>
+      <div class="content">
+        <form class="form">
+          <input
+            type="text"
+            placeholder="what do you have planned?"
+            id="task"
+          />
+          <button type="submit" class="add-btn">add task</button>
+        </form>
+        <h3>Tasks</h3>
+        <div class="item-container"></div>
+        <button class="clear-btn">clear all</button>
+        <p class="empty show">No tasks</p>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
